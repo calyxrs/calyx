@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sidebars>
+  <sidebar regex="/whip$/" type="normal" id="12290" />
+  <sidebar regex="/Scythe$/" type="normal" id="776" />
+  <sidebar regex="/bow$/" type="normal" id="1764" />
+  <sidebar regex="/^Crystal bow/" type="normal" id="1764" />
+  <sidebar regex="/^Toktz-xil-ul/" type="normal" id="1764" />
+  <sidebar regex="/^Staff/" type="normal" id="328" />
+  <sidebar regex="/staff$/" type="normal" id="328" />
+  <sidebar regex="/^dart/" type="generic" id="4446" />
+  <sidebar regex="/^dagger/" type="generic" id="2276" />
+  <sidebar regex="/^pickaxe/" type="generic" id="5570" />
+  <sidebar regex="/^axe/i" type="generic" id="1698" />
+  <sidebar regex="/^battleaxe/i" type="generic" id="1698" />
+  <sidebar regex="/^halberd/" type="generic" id="8460" />
+</sidebars>
+

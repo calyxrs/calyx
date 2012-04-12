@@ -1,0 +1,1 @@
+Server console output is stored in this folder

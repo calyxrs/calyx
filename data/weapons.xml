@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+  <!-- Weapon animation indicies -->
+  <anim_inds>
+    <anim_ind stand="809" walk="1146" run="1210">
+      <match value="/halberd/i" />
+      <match value="/guthan/i" />
+      <match value="/sceptre/i" />
+    </anim_ind>
+    <anim_ind stand="0x811" walk="2064">
+      <match value="/dharok/i" />
+    </anim_ind>
+    <anim_ind stand="809" walk="1146" run="1210">
+      <match value="/ahrim/i" />
+    </anim_ind>
+    <anim_ind stand="1832" walk="1830" run="1831">
+      <match value="/verac/i" />
+    </anim_ind>
+    <anim_ind stand="2074" walk="2076" run="2077">
+      <match value="/karil/i" />
+    </anim_ind>
+    <anim_ind stand="809" run="1210" walk="1146">
+      <match value="/wand/i" />
+      <match value="/staff/i" />
+    </anim_ind>
+    <anim_ind stand="7047" walk="7046" run="7039" turn="7044" turn180="7044" turn90cw="7044" turn90ccw="7044">
+      <match value="/2h sword/i" />
+    </anim_ind>
+    <anim_ind stand="808" walk="819" run="824">
+      <match value="/bow/i" />
+    </anim_ind>
+    <anim_ind walk="1660" run="1661">
+      <id value="4151" />
+    </anim_ind>
+    <anim_ind stand="0x811" walk="2064" run="1664">
+      <id value="6528" />
+    </anim_ind>
+    <anim_ind stand="1662" walk="1663" run="1664">
+      <id value="4153" />
+    </anim_ind>
+    <anim_ind stand="809">
+      <id value="1305" />
+    </anim_ind>
+  </anim_inds>
+
+  <!-- Weapon animations -->
+  <wepanims>
+    <wepanim mode0="422" mode1="422" mode2="423">
+      <match value="/unarmed/i" />
+    </wepanim>
+    
+    <wepanim mode0="6600" mode1="6600" mode2="582">
+      <match value="/dart/i" />
+    </wepanim>
+    
+    <wepanim value="806">
+      <match value="/knife/i" />
+      <match value="/javelin/i" />
+      <match value="/thrownaxe/i" />
+    </wepanim>
+    
+    <wepanim value="4230">
+      <match value="/crossbow/i" />
+      <match value="/crystal bow/i" />
+    </wepanim>
+    
+    <wepanim value="440">
+      <match value="/halberd/i" />
+    </wepanim>
+    
+    <wepanim value="402">
+      <match value="/^dragon dagger/i" />
+    </wepanim>
+    
+    <wepanim value="412">
+      <match value="/dagger$/i" />
+    </wepanim>
+    
+    <wepanim mode0="7042" mode1="7049" mode2="7041" mode3="7048">
+      <match value="/2h sword/i" />
+    </wepanim>
+    
+    <wepanim mode0="2067" mode1="2067" mode2="2067" mode3="2066">
+      <match value="/dharok/i" />
+    </wepanim>
+    
+    <wepanim value="451">
+      <match value="/sword/i" />
+    </wepanim>
+    
+    <wepanim value="2075">
+      <match value="/karil/i" />
+    </wepanim>
+    
+    <wepanim value="426">
+      <match value="/bow/i" />
+    </wepanim>
+    
+    <wepanim value="2614">
+      <id value="6522" />
+    </wepanim>
+    
+    <wepanim value="1665">
+      <id value="4153" />
+    </wepanim>
+    
+    <wepanim value="2080">
+      <id value="4726" />
+    </wepanim>
+    
+    <wepanim value="0x814">
+      <id value="4747" />
+    </wepanim>
+    
+    <wepanim value="406">
+      <id value="4710" />
+    </wepanim>
+    
+    <wepanim value="2062">
+      <id value="4755" />
+    </wepanim>
+    
+    <wepanim value="1658">
+      <id value="4151" />
+    </wepanim>
+    
+    <wepanim value="2661">
+      <id value="6528" />
+    </wepanim>
+  </wepanims>
+  
+  
+</data>

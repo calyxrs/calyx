@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shops>
+  <shop id="1" name="Varrock General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="2" name="Aubury's Rune Store" customstock="false" generalstore="false">
+    <item id="554" amount="5000" />
+    <item id="555" amount="5000" />
+    <item id="556" amount="5000" />
+    <item id="557" amount="5000" />
+    <item id="558" amount="5000" />
+    <item id="559" amount="5000" />
+    <item id="562" amount="500" />
+    <item id="560" amount="200" />
+  </shop>
+  <shop id="3" name="Falador General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="4" name="Cassie's Shield Shop" customstock="false" generalstore="false">
+    <item id="1171" amount="5" />
+    <item id="1173" amount="4" />
+    <item id="1189" amount="3" />
+    <item id="1175" amount="2" />
+    <item id="1191" amount="2" />
+    <item id="1177" amount="0" />
+    <item id="1193" amount="0" />
+    <item id="1181" amount="0" />
+  </shop>
+  <shop id="5" name="Flynn's Mace Market" customstock="false" generalstore="false">
+    <item id="1422" amount="5" />
+    <item id="1420" amount="4" />
+    <item id="1424" amount="4" />
+    <item id="1428" amount="3" />
+    <item id="1430" amount="1" />
+  </shop>
+  <shop id="6" name="Helmet Shop." customstock="false" generalstore="false">
+    <item id="1139" amount="5" />
+    <item id="1137" amount="3" />
+    <item id="1141" amount="3" />
+    <item id="1143" amount="2" />
+    <item id="1145" amount="1" />
+    <item id="1155" amount="4" />
+    <item id="1153" amount="3" />
+    <item id="1157" amount="3" />
+    <item id="1159" amount="2" />
+    <item id="1161" amount="1" />
+  </shop>
+  <shop id="7" name="Zaff's Superior Staffs!" customstock="false" generalstore="false">
+    <item id="1391" amount="5" />
+    <item id="1379" amount="5" />
+    <item id="1389" amount="5" />
+    <item id="1381" amount="2" />
+    <item id="1383" amount="2" />
+    <item id="1385" amount="2" />
+    <item id="1387" amount="2" />
+  </shop>
+  <shop id="8" name="Thessalia Fine Clothes" customstock="false" generalstore="false">
+    <item id="1005" amount="3" />
+    <item id="1129" amount="12" />
+    <item id="1059" amount="10" />
+    <item id="1061" amount="10" />
+    <item id="1757" amount="1" />
+    <item id="1013" amount="5" />
+    <item id="1015" amount="3" />
+    <item id="1011" amount="2" />
+    <item id="1007" amount="4" />
+    <item id="950" amount="5" />
+    <item id="428" amount="3" />
+    <item id="426" amount="3" />
+  </shop>
+  <shop id="9" name="Varrock Swordshop." customstock="false" generalstore="false">
+    <item id="1277" amount="5" />
+    <item id="1279" amount="4" />
+    <item id="1281" amount="4" />
+    <item id="1283" amount="3" />
+    <item id="1285" amount="3" />
+    <item id="1287" amount="2" />
+    <item id="1291" amount="4" />
+    <item id="1293" amount="3" />
+    <item id="1295" amount="3" />
+    <item id="1297" amount="2" />
+    <item id="1299" amount="2" />
+    <item id="1301" amount="1" />
+    <item id="1205" amount="10" />
+    <item id="1203" amount="6" />
+    <item id="1207" amount="5" />
+    <item id="1217" amount="4" />
+    <item id="1209" amount="3" />
+    <item id="1211" amount="2" />
+  </shop>
+  <shop id="10" name="Horvik's Armor shop" customstock="false" generalstore="false">
+    <item id="1103" amount="5" />
+    <item id="1105" amount="3" />
+    <item id="1101" amount="3" />
+    <item id="1117" amount="3" />
+    <item id="1121" amount="1" />
+    <item id="1125" amount="1" />
+    <item id="1119" amount="1" />
+    <item id="1109" amount="1" />
+    <item id="1133" amount="1" />
+    <item id="1097" amount="1" />
+    <item id="1115" amount="1" />
+    <item id="1067" amount="1" />
+  </shop>
+  <shop id="11" name="Lowe's Archery Emporium" customstock="false" generalstore="false">
+    <item id="882" amount="2000" />
+    <item id="884" amount="1500" />
+    <item id="886" amount="1000" />
+    <item id="888" amount="800" />
+    <item id="890" amount="600" />
+    <item id="877" amount="1500" />
+    <item id="841" amount="4" />
+    <item id="839" amount="4" />
+    <item id="843" amount="3" />
+    <item id="845" amount="3" />
+    <item id="849" amount="2" />
+    <item id="847" amount="2" />
+    <item id="853" amount="1" />
+    <item id="851" amount="1" />
+    <item id="837" amount="2" />
+  </shop>
+  <shop id="12" name="Herquin's Gems." customstock="false" generalstore="false">
+    <item id="1623" amount="0" />
+    <item id="1621" amount="0" />
+    <item id="1619" amount="0" />
+    <item id="1617" amount="0" />
+    <item id="1607" amount="0" />
+    <item id="1605" amount="0" />
+    <item id="1603" amount="0" />
+    <item id="1601" amount="0" />
+  </shop>
+  <shop id="13" name="Wayne's Chains! - Chainmail specialist." customstock="false" generalstore="false">
+    <item id="1103" amount="3" />
+    <item id="1101" amount="2" />
+    <item id="1105" amount="1" />
+    <item id="1107" amount="1" />
+    <item id="1109" amount="1" />
+    <item id="1111" amount="1" />
+  </shop>
+  <shop id="14" name="Rommik's Crafty Supplies." customstock="false" generalstore="false">
+    <item id="1755" amount="3" />
+    <item id="1592" amount="2" />
+    <item id="1597" amount="1" />
+    <item id="1595" amount="1" />
+    <item id="1733" amount="1" />
+    <item id="1734" amount="1" />
+    <item id="1599" amount="1" />
+    <item id="5523" amount="1" />
+  </shop>
+  <shop id="15" name="Rimmington General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="16" name="Brian's Archery Supplies." customstock="false" generalstore="false">
+    <item id="886" amount="1500" />
+    <item id="888" amount="1000" />
+    <item id="890" amount="800" />
+    <item id="843" amount="4" />
+    <item id="845" amount="4" />
+    <item id="849" amount="3" />
+    <item id="847" amount="3" />
+    <item id="853" amount="2" />
+    <item id="851" amount="2" />
+  </shop>
+  <shop id="17" name="Food Store" customstock="false" generalstore="false">
+    <item id="1933" amount="3" />
+    <item id="2132" amount="1" />
+    <item id="2138" amount="1" />
+    <item id="1965" amount="3" />
+    <item id="1963" amount="3" />
+    <item id="1951" amount="1" />
+    <item id="2309" amount="0" />
+    <item id="1973" amount="1" />
+    <item id="1985" amount="3" />
+    <item id="1982" amount="3" />
+    <item id="1942" amount="1" />
+  </shop>
+  <shop id="18" name="Gerrant's Fishy Business." customstock="false" generalstore="false">
+    <item id="303" amount="5" />
+    <item id="307" amount="5" />
+    <item id="309" amount="5" />
+    <item id="311" amount="2" />
+    <item id="301" amount="2" />
+    <item id="313" amount="1500" />
+    <item id="314" amount="1000" />
+    <item id="317" amount="0" />
+    <item id="327" amount="200" />
+    <item id="345" amount="0" />
+    <item id="321" amount="0" />
+    <item id="335" amount="0" />
+    <item id="349" amount="0" />
+    <item id="331" amount="0" />
+    <item id="359" amount="0" />
+    <item id="377" amount="0" />
+    <item id="371" amount="0" />
+  </shop>
+  <shop id="19" name="Brian's Battleaxe Bazaar." customstock="false" generalstore="false">
+    <item id="1375" amount="4" />
+    <item id="1363" amount="3" />
+    <item id="1365" amount="3" />
+    <item id="1367" amount="1" />
+    <item id="1369" amount="1" />
+    <item id="1371" amount="1" />
+  </shop>
+  <shop id="20" name="Grums Gold Exchange." customstock="false" generalstore="false">
+    <item id="1375" amount="4" />
+    <item id="1363" amount="3" />
+    <item id="1365" amount="3" />
+    <item id="1367" amount="1" />
+    <item id="1369" amount="1" />
+    <item id="1371" amount="1" />
+  </shop>
+  <shop id="21" name="Betty's Magic Emporium." customstock="false" generalstore="false">
+    <item id="554" amount="5000" />
+    <item id="555" amount="5000" />
+    <item id="556" amount="5000" />
+    <item id="557" amount="5000" />
+    <item id="558" amount="5000" />
+    <item id="559" amount="5000" />
+    <item id="562" amount="500" />
+    <item id="560" amount="200" />
+    <item id="221" amount="300" />
+    <item id="579" amount="1" />
+    <item id="1017" amount="1" />
+  </shop>
+  <shop id="22" name="Lumbridge General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="23" name="Bob's Brilliant Axes." customstock="false" generalstore="false">
+    <item id="1265" amount="5" />
+    <item id="1351" amount="10" />
+    <item id="1349" amount="5" />
+    <item id="1353" amount="3" />
+    <item id="1363" amount="5" />
+    <item id="1365" amount="2" />
+    <item id="1369" amount="1" />
+  </shop>
+  <shop id="24" name="Zeke's Superior Scimitars." customstock="false" generalstore="false">
+    <item id="1321" amount="5" />
+    <item id="1323" amount="3" />
+    <item id="1325" amount="2" />
+    <item id="1329" amount="1" />
+  </shop>
+  <shop id="25" name="Dommik's Crafting Store." customstock="false" generalstore="false">
+    <item id="1755" amount="2" />
+    <item id="1592" amount="4" />
+    <item id="1597" amount="2" />
+    <item id="1595" amount="2" />
+    <item id="1733" amount="3" />
+    <item id="1734" amount="100" />
+    <item id="1599" amount="3" />
+    <item id="5523" amount="10" />
+  </shop>
+  <shop id="26" name="Al-Kharid General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="27" name="Louie's Armoured Legs Bazaar" customstock="false" generalstore="false">
+    <item id="1075" amount="5" />
+    <item id="1067" amount="3" />
+    <item id="1069" amount="2" />
+    <item id="1077" amount="1" />
+    <item id="1071" amount="1" />
+    <item id="1073" amount="1" />
+  </shop>
+  <shop id="28" name="Rannaerl's Super Skirt Store." customstock="false" generalstore="false">
+    <item id="1087" amount="5" />
+    <item id="1081" amount="3" />
+    <item id="1083" amount="2" />
+    <item id="1089" amount="1" />
+    <item id="1085" amount="1" />
+    <item id="1091" amount="1" />
+  </shop>
+  <shop id="29" name="Lundail's Arena-side Rune Shop" customstock="false" generalstore="false">
+    <item id="1333" amount="1" />
+  </shop>
+  <shop id="30" name="Candle Shop" customstock="false" generalstore="false">
+    <item id="36" amount="10" />
+  </shop>
+  <shop id="31" name="Nurmof's Pickaxe Shop" customstock="false" generalstore="false">
+    <item id="1265" amount="6" />
+    <item id="1267" amount="5" />
+    <item id="1269" amount="4" />
+    <item id="1273" amount="3" />
+    <item id="1271" amount="2" />
+    <item id="1275" amount="1" />
+  </shop>
+  <shop id="32" name="Drogo's Mining Emporium" customstock="false" generalstore="false">
+    <item id="1265" amount="4" />
+    <item id="2347" amount="4" />
+    <item id="2357" amount="0" />
+    <item id="453" amount="0" />
+    <item id="2351" amount="0" />
+    <item id="440" amount="0" />
+    <item id="2349" amount="0" />
+    <item id="436" amount="0" />
+    <item id="438" amount="0" />
+  </shop>
+  <shop id="33" name="Scavvo's Rune Store" customstock="false" generalstore="false">
+    <item id="1093" amount="1" />
+    <item id="1079" amount="1" />
+    <item id="1432" amount="1" />
+    <item id="1113" amount="1" />
+    <item id="1303" amount="1" />
+    <item id="1289" amount="1" />
+    <item id="1099" amount="1" />
+    <item id="1065" amount="1" />
+    <item id="1169" amount="2" />
+  </shop>
+  <shop id="34" name="Valaine's Shop of Champions" customstock="false" generalstore="false">
+    <item id="1021" amount="2" />
+    <item id="1165" amount="1" />
+    <item id="1077" amount="1" />
+    <item id="1123" amount="1" />
+  </shop>
+  <shop id="35" name="Adventurer's Supplies" customstock="true" generalstore="true">
+    <item id="227" amount="30" />
+    <item id="1265" amount="5" />
+    <item id="1349" amount="2" />
+    <item id="2142" amount="5" />
+    <item id="590" amount="5" />
+    <item id="1759" amount="20" />
+    <item id="882" amount="1000" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+    <item id="2552" amount="20" />
+  </shop>
+  <shop id="36" name="Ardougne Spice Stall" customstock="false" generalstore="false">
+    <item id="2007" amount="1" />
+    <item id="5605" amount="1" />
+    <item id="1957" amount="2" />
+  </shop>
+  <shop id="37" name="Zenesha's Armour Shop" customstock="false" generalstore="false">
+    <item id="1117" amount="3" />
+    <item id="1115" amount="1" />
+    <item id="1119" amount="1" />
+    <item id="1125" amount="1" />
+    <item id="1121" amount="1" />
+  </shop>
+  <shop id="38" name="Happy Heroes' H'emporium" customstock="false" generalstore="false">
+    <item id="1377" amount="1" />
+    <item id="1434" amount="1" />
+  </shop>
+  <shop id="39" name="Legend's Guild General Store" customstock="true" generalstore="true">
+    <item id="373" amount="20" />
+    <item id="2323" amount="5" />
+    <item id="121" amount="3" />
+    <item id="886" amount="500" />
+  </shop>
+  <shop id="40" name="Legend's Guild Shop of Useful Items" customstock="false" generalstore="false">
+    <item id="299" amount="6" />
+    <item id="1590" amount="5" />
+    <item id="2402" amount="4" />
+    <item id="1542" amount="3" />
+    <item id="2368" amount="1" />
+    <item id="1052" amount="3" />
+  </shop>
+  <shop id="41" name="Barker's Habidashery" customstock="false" generalstore="false">
+    <item id="2894" amount="5" />
+    <item id="2896" amount="5" />
+    <item id="2898" amount="5" />
+    <item id="2900" amount="5" />
+    <item id="2902" amount="5" />
+    <item id="2904" amount="5" />
+    <item id="2906" amount="5" />
+    <item id="2908" amount="5" />
+    <item id="2910" amount="5" />
+    <item id="2912" amount="5" />
+    <item id="2914" amount="5" />
+    <item id="2916" amount="5" />
+    <item id="2918" amount="5" />
+    <item id="2920" amount="5" />
+    <item id="2922" amount="5" />
+    <item id="2924" amount="5" />
+    <item id="2926" amount="5" />
+    <item id="2928" amount="5" />
+    <item id="2930" amount="5" />
+    <item id="2932" amount="5" />
+    <item id="2934" amount="5" />
+    <item id="2936" amount="5" />
+    <item id="2938" amount="5" />
+    <item id="2940" amount="5" />
+    <item id="2942" amount="5" />
+    <item id="1007" amount="5" />
+    <item id="1019" amount="5" />
+    <item id="1021" amount="5" />
+    <item id="1023" amount="5" />
+    <item id="1027" amount="5" />
+  </shop>
+  <shop id="42" name="Karamja General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="43" name="Karamja Wines, Spirits, and Beers." customstock="false" generalstore="false">
+    <item id="1917" amount="3" />
+    <item id="3164" amount="3" />
+    <item id="1993" amount="0" />
+  </shop>
+  <shop id="44" name="Magic Guild Store" customstock="false" generalstore="false">
+    <item id="4089" amount="1000" />
+    <item id="4091" amount="1000" />
+    <item id="4093" amount="1000" />
+    <item id="4095" amount="1000" />
+    <item id="4097" amount="1000" />
+  </shop>
+  <shop id="45" name="Magic Guild Store" customstock="false" generalstore="false">
+    <item id="556" amount="5000" />
+    <item id="555" amount="5000" />
+    <item id="557" amount="5000" />
+    <item id="554" amount="5000" />
+    <item id="558" amount="5000" />
+    <item id="559" amount="5000" />
+    <item id="562" amount="200" />
+    <item id="561" amount="200" />
+    <item id="560" amount="200" />
+    <item id="563" amount="200" />
+    <item id="4278" amount="200" />
+    <item id="566" amount="5000" />
+    <item id="1379" amount="5" />
+    <item id="1387" amount="2" />
+    <item id="1383" amount="2" />
+    <item id="1381" amount="2" />
+    <item id="1385" amount="2" />
+  </shop>
+  <shop id="46" name="Harpoon Joe's House of 'Rum'." customstock="false" generalstore="false">
+    <item id="1917" amount="3" />
+    <item id="7157" amount="3" />
+    <item id="1993" amount="1" />
+    <item id="2003" amount="5" />
+  </shop>
+  <shop id="47" name="The Other Inn." customstock="false" generalstore="false">
+    <item id="1917" amount="3" />
+    <item id="7157" amount="3" />
+    <item id="1993" amount="1" />
+    <item id="2003" amount="5" />
+  </shop>
+  <shop id="48" name="Dodgy Mike's Second Hand Clothing" customstock="false" generalstore="false">
+    <item id="7114" amount="15" />
+    <item id="7110" amount="10" />
+    <item id="7112" amount="20" />
+    <item id="7116" amount="10" />
+    <item id="7122" amount="10" />
+    <item id="7124" amount="20" />
+    <item id="7126" amount="10" />
+    <item id="7128" amount="10" />
+    <item id="7130" amount="20" />
+    <item id="7132" amount="10" />
+    <item id="7134" amount="10" />
+    <item id="7136" amount="20" />
+    <item id="7138" amount="10" />
+  </shop>
+  <shop id="49" name="Two Feet Charley's Fish Shop" customstock="false" generalstore="false">
+    <item id="317" amount="10" />
+    <item id="327" amount="10" />
+    <item id="345" amount="7" />
+    <item id="353" amount="7" />
+    <item id="341" amount="6" />
+    <item id="321" amount="5" />
+    <item id="359" amount="4" />
+    <item id="377" amount="2" />
+    <item id="363" amount="2" />
+    <item id="371" amount="1" />
+  </shop>
+  <shop id="50" name="Smithing Smith's Shop" customstock="false" generalstore="false">
+    <item id="1321" amount="5" />
+    <item id="1323" amount="3" />
+    <item id="1325" amount="2" />
+    <item id="1329" amount="1" />
+    <item id="2347" amount="5" />
+  </shop>
+  <shop id="51" name="Catherby General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="52" name="Zanaris General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="53" name="Jukat" customstock="false" generalstore="false">
+    <item id="1305" amount="2" />
+    <item id="1215" amount="2" />
+  </shop>
+  <shop id="54" name="Irksol" customstock="false" generalstore="false">
+    <item id="1641" amount="1" />
+  </shop>
+  <shop id="55" name="Lletya Seamstress" customstock="false" generalstore="false">
+    <item id="1734" amount="8" />
+    <item id="1733" amount="3" />
+    <item id="1759" amount="5" />
+    <item id="1763" amount="3" />
+    <item id="1765" amount="6" />
+    <item id="1767" amount="6" />
+    <item id="1769" amount="10" />
+    <item id="1771" amount="6" />
+    <item id="1773" amount="3" />
+  </shop>
+  <shop id="56" name="Lletya General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+  <shop id="57" name="Lletya Arrow Store" customstock="false" generalstore="false">
+    <item id="886" amount="1500" />
+    <item id="888" amount="1000" />
+    <item id="890" amount="800" />
+    <item id="843" amount="4" />
+    <item id="845" amount="4" />
+    <item id="849" amount="3" />
+    <item id="847" amount="3" />
+    <item id="853" amount="2" />
+    <item id="851" amount="2" />
+  </shop>
+  <shop id="58" name="Lletya Food Store" customstock="false" generalstore="false">
+    <item id="2309" amount="10" />
+    <item id="379" amount="15" />
+    <item id="1993" amount="3" />
+    <item id="1985" amount="10" />
+    <item id="1891" amount="5" />
+  </shop>
+  <shop id="59" name="Diango's Toy Store" customstock="false" generalstore="false">
+    <item id="4613" amount="250" />
+    <item id="2520" amount="5" />
+    <item id="2522" amount="5" />
+    <item id="2524" amount="5" />
+    <item id="2526" amount="5" />
+  </shop>
+  <shop id="60" name="William's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4315" amount="100" />
+    <item id="4335" amount="100" />
+    <item id="4355" amount="100" />
+    <item id="4375" amount="100" />
+    <item id="4395" amount="100" />
+  </shop>
+  <shop id="61" name="Ian's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4317" amount="100" />
+    <item id="4337" amount="100" />
+    <item id="4357" amount="100" />
+    <item id="4377" amount="100" />
+    <item id="4397" amount="100" />
+  </shop>
+  <shop id="62" name="Larry's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4319" amount="100" />
+    <item id="4339" amount="100" />
+    <item id="4359" amount="100" />
+    <item id="4379" amount="100" />
+    <item id="4399" amount="100" />
+  </shop>
+  <shop id="63" name="Darren's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4321" amount="100" />
+    <item id="4341" amount="100" />
+    <item id="4361" amount="100" />
+    <item id="4381" amount="100" />
+    <item id="4401" amount="100" />
+  </shop>
+  <shop id="64" name="Edward's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4323" amount="100" />
+    <item id="4343" amount="100" />
+    <item id="4363" amount="100" />
+    <item id="4383" amount="100" />
+    <item id="4403" amount="100" />
+  </shop>
+  <shop id="65" name="Richard's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4325" amount="100" />
+    <item id="4345" amount="100" />
+    <item id="4365" amount="100" />
+    <item id="4385" amount="100" />
+    <item id="4405" amount="100" />
+  </shop>
+  <shop id="66" name="Neil's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4327" amount="100" />
+    <item id="4347" amount="100" />
+    <item id="4367" amount="100" />
+    <item id="4387" amount="100" />
+    <item id="4407" amount="100" />
+  </shop>
+  <shop id="67" name="Edmond's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4329" amount="100" />
+    <item id="4349" amount="100" />
+    <item id="4369" amount="100" />
+    <item id="4389" amount="100" />
+    <item id="4409" amount="100" />
+  </shop>
+  <shop id="68" name="Simon's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4331" amount="100" />
+    <item id="4351" amount="100" />
+    <item id="4371" amount="100" />
+    <item id="4391" amount="100" />
+    <item id="4411" amount="100" />
+  </shop>
+  <shop id="69" name="Sam's Wilderness Cape Shop" customstock="false" generalstore="false">
+    <item id="4333" amount="100" />
+    <item id="4353" amount="100" />
+    <item id="4373" amount="100" />
+    <item id="4393" amount="100" />
+    <item id="4413" amount="100" />
+  </shop>
+  <shop id="70" name="Battle Runes" customstock="false" generalstore="false">
+    <item id="556" amount="1000" />
+    <item id="557" amount="1000" />
+    <item id="554" amount="1000" />
+    <item id="555" amount="1000" />
+    <item id="558" amount="1000" />
+    <item id="565" amount="500" />
+    <item id="560" amount="500" />
+    <item id="562" amount="500" />
+  </shop>
+  <shop id="71" name="Edgeville General Store" customstock="true" generalstore="true">
+    <item id="1931" amount="5" />
+    <item id="1935" amount="2" />
+    <item id="1735" amount="2" />
+    <item id="1925" amount="3" />
+    <item id="1923" amount="2" />
+    <item id="1887" amount="2" />
+    <item id="590" amount="2" />
+    <item id="1755" amount="2" />
+    <item id="2347" amount="5" />
+    <item id="550" amount="5" />
+  </shop>
+</shops>

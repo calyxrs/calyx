@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<runes>
+  <!-- Elements -->
+  <rune name="fire" id="554">
+    <staff id="1387" />
+    <staff id="1393" />
+    <staff id="1401" />
+    <staff id="3053" />
+    <staff id="3054" />
+  </rune>
+  <rune name="water" id="555">
+    <staff id="1383" />
+    <staff id="1395" />
+    <staff id="1403" />
+    <staff id="6562" />
+    <staff id="6563" />
+  </rune>
+  <rune name="air" id="556">
+    <staff id="1381" />
+    <staff id="1397" />
+    <staff id="1405" />
+  </rune>
+  <rune name="earth" id="557">
+    <staff id="1385" />
+    <staff id="1399" />
+    <staff id="1407" />
+    <staff id="3053" />
+    <staff id="3054" />
+    <staff id="6562" />
+    <staff id="6563" />
+  </rune>
+  
+  <!-- Additional runes -->
+  <rune name="mind" id="558" />
+  <rune name="body" id="559" />
+  <rune name="death" id="560" />
+  <rune name="nature" id="561" />
+  <rune name="chaos" id="562" />
+  <rune name="law" id="563" />
+  <rune name="cosmic" id="564" />
+  <rune name="blood" id="565" />
+  <rune name="soul" id="566" />
+  
+  <!-- Combination runes -->
+  <rune name="steam" id="4694">
+    <part name="water" />
+    <part name="fire" />
+  </rune>
+  <rune name="mist" id="4695">
+    <part name="air" />
+    <part name="water" />
+  </rune>
+  <rune name="dust" id="4696">
+    <part name="air" />
+    <part name="earth" />
+  </rune>
+  <rune name="smoke" id="4697">
+    <part name="air" />
+    <part name="fire" />
+  </rune>
+  <rune name="mud" id="4698">
+    <part name="earth" />
+    <part name="water" />
+  </rune>
+  <rune name="lava" id="4699">
+    <part name="earth" />
+    <part name="fire" />
+  </rune>
+</runes>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+	<item id="1050" x="3222" y="3225" z="0" respawn="3" />
+	<item id="558" amount="100" x="3223" y="3225" z="0" respawn="4" />
+	<item id="558" amount="100" x="3208" y="3214" z="0" respawn="4" ontable="true" />
+</items>

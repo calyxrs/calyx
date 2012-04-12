@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<slots>
+  <slot id="0" check="0">
+    <name>hat</name>
+    <name>ears</name>
+  </slot>
+  <slot id="0" check="11">
+    <name>full helm</name>
+    <name>hood</name>
+    <name>full</name>
+  </slot>
+  <slot id="0" check="12">
+    <name>mask</name>
+  </slot>
+  <slot id="1" check="-1">
+    <name>cape</name>
+    <name>cloak</name>
+  </slot>
+  <slot id="2" check="-1">
+    <name>amulet</name>
+    <name>necklace</name>
+  </slot>
+  <slot id="5" check="-1">
+    <name>shield</name>
+    <name>kite</name>
+  </slot>
+  <slot id="7" check="-1">
+    <name>leg</name>
+    <name>trousers</name>
+    <name>skirt</name>
+    <name>bottom</name>
+  </slot>
+  <slot id="4" check="-1">
+    <name>top</name>
+    <name>brassard</name>
+    <name>torso</name>
+    <name>chainbody</name>
+    <name>body</name>
+  </slot>
+  <slot id="4" check="10">
+    <name>platebody</name>
+    <name>plate</name>
+    <name>shirt</name>
+    <name>robe</name>
+    <name>gown</name>
+  </slot>
+  <slot id="9" check="-1">
+    <name>gloves</name>
+    <name>vambraces</name>
+  </slot>
+  <slot id="10" check="-1">
+    <name>boots</name>
+  </slot>
+  <slot id="12" check="-1">
+    <name>ring</name>
+  </slot>
+  <slot id="13" check="-1">
+    <name>arrow</name>
+    <name>bolts</name>
+  </slot>
+</slots>

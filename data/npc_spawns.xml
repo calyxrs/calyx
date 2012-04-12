@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<npcs>
+	<npc id="1" x="3217" y="3222" z="0" face="north" />
+	<npc id="1" x="3218" y="3222" z="0" face="northeast" />
+	<npc id="1" x="3219" y="3222" z="0" face="east" />
+	<npc id="1" x="3220" y="3222" z="0" face="southeast" />
+	<npc id="1" x="3221" y="3222" z="0" face="south" />
+	<npc id="1" x="3222" y="3222" z="0" face="southwest" />
+	<npc id="1" x="3223" y="3222" z="0" face="west" />
+	<npc id="1" x="3224" y="3222" z="0" face="northwest" />
+	
+	<npc id="580" x="3224" y="3216" z="0" face="east" shop="5" />
+</npcs>
