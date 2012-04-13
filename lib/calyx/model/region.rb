@@ -8,21 +8,15 @@ module Calyx::Model
       @active_regions = []
     end
     
-    def get_local_players(entity)
-      get_surrounding_regions(entity.location).inject([]){|players, region| 
-        players + region.players.select {|p| p.location.within_distance?(entity.location) } 
-      }
-    end
+    def get_local_players(ref, check_distance=true)
+      loc = ref.is_a?(Location) ? ref : ref.location
     
-    def get_local_niggers(loc)
-      get_surrounding_regions(loc).inject([]) {|players, region|
-        players + region.players.select {|p| p.location.within_distance?(loc) }
-      }
-    end
-    
-	  def get_local_penguins(loc)
-      get_surrounding_regions(loc).inject([]) {|players, region|
-        players + region.players#.select {|p| p.location.within_distance?(loc) }
+      get_surrounding_regions(loc).inject([]){|players, region|
+        if check_distance
+          players + region.players.select {|p| p.location.within_distance?(loc) }
+        else
+          players + region.players
+        end
       }
     end
     

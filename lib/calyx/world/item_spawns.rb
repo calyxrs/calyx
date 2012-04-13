@@ -53,7 +53,7 @@ module Calyx::World
     def remove
       @picked_up = true
       
-      WORLD.region_manager.get_local_niggers(@location).each {|player|
+      WORLD.region_manager.get_local_players(@location).each {|player|
         player.io.send_grounditem_removal(self)
       }
     end
@@ -67,7 +67,7 @@ module Calyx::World
         return
       end
       
-      WORLD.region_manager.get_local_niggers(@location).each {|p|
+      WORLD.region_manager.get_local_players(@location).each {|p|
         p.io.send_grounditem_creation(self)
       }
     end

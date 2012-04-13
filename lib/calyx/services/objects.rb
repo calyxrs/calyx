@@ -43,7 +43,7 @@ module Calyx::Objects
         return
       end
       
-      WORLD.region_manager.get_local_niggers(@location).each {|p|
+      WORLD.region_manager.get_local_players(@location).each {|p|
         # Remove old object if the new object is in a new location
         if @location != @orig_location
             p.io.send_replace_object(@orig_location, p.last_location, -1, @face, @type)
@@ -67,7 +67,7 @@ module Calyx::Objects
        end
        
        
-       WORLD.region_manager.get_local_niggers(@location).each {|p|
+       WORLD.region_manager.get_local_players(@location).each {|p|
          # Remove object if the object was in a new location
          if @location != @orig_location
            p.io.send_replace_object(@location, p.last_location, -1, @orig_face, @type)

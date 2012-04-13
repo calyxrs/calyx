@@ -24,7 +24,7 @@ module Calyx::GroundItems
     
     def make_global
       @global = true
-      WORLD.region_manager.get_local_niggers(@location).each {|player|
+      WORLD.region_manager.get_local_players(@location).each {|player|
         player.io.send_grounditem_creation(self) unless player.eql?(@player)
       }
     end
@@ -37,7 +37,7 @@ module Calyx::GroundItems
       @region.ground_items.delete self
       
       if @global
-        WORLD.region_manager.get_local_niggers(@location).each {|p| p.io.send_grounditem_removal self }
+        WORLD.region_manager.get_local_players(@location).each {|p| p.io.send_grounditem_removal self }
       else
         @player.io.send_grounditem_removal self
       end

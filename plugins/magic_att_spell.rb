@@ -55,7 +55,7 @@ on_magic_on_npc(1152) {|player, npc|
 def projectile(src, dest, angle, speed, id, start_z, end_z, index)
   offset = Calyx::Model::Location.new(-(src.x-dest.x), -(src.x-dest.y), 0)
   
-  WORLD.region_manager.get_local_niggers(src).each {|p|
+  WORLD.region_manager.get_local_players(src).each {|p|
     if p && p.location.within_distance?(src)
       # Region
       region = Calyx::Net::PacketBuilder.new(85)
@@ -84,7 +84,7 @@ end
 def stillgfx(id, x, y, z)
   loc = Calyx::Model::Location.new(x, y, z)
 
-  WORLD.region_manager.get_local_niggers(loc).each {|p|
+  WORLD.region_manager.get_local_players(loc).each {|p|
     if p && p.location.within_distance?(loc)
       # Region
       region = Calyx::Net::PacketBuilder.new(85)

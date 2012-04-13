@@ -84,7 +84,7 @@ module Calyx::Doors
         # Move and rotate
         change_state door
         
-        WORLD.region_manager.get_local_penguins(door.location).each {|p|
+        WORLD.region_manager.get_local_players(door.location, false).each {|p|
           p.io.send_replace_object(door.location, p.last_location, door.id, door.face, door.type)
         }
       end
@@ -123,7 +123,7 @@ module Calyx::Doors
       end
       
       if x_off != 0 || y_off != 0
-        WORLD.region_manager.get_local_penguins(door.location).each {|p|
+        WORLD.region_manager.get_local_players(door.location, false).each {|p|
           p.io.send_replace_object(door.location, p.last_location, -1, 0, door.type)
         }
       end
@@ -174,7 +174,7 @@ module Calyx::Doors
       end
       
       if x_off != 0 || y_off != 0
-       WORLD.region_manager.get_local_penguins(door.location).each {|p|
+       WORLD.region_manager.get_local_players(door.location, false).each {|p|
          p.io.send_replace_object(door.location, p.last_location, -1, 0, 0)
        }
       end
@@ -185,7 +185,7 @@ module Calyx::Doors
       door.location = door.location.transform x_off, y_off, 0
       
       if door.id != nil
-        WORLD.region_manager.get_local_penguins(door.location).each {|p|
+        WORLD.region_manager.get_local_players(door.location, false).each {|p|
           p.io.send_replace_object(door.location, p.last_location, door.id, door.face, 0)
         }
       end
@@ -217,7 +217,7 @@ module Calyx::Doors
       end
       
       if x_off != 0 || y_off != 0
-       WORLD.region_manager.get_local_penguins(door.r_door_location).each {|p|
+       WORLD.region_manager.get_local_players(door.r_door_location, false).each {|p|
          p.io.send_replace_object(door.r_door_location, p.last_location, -1, 0, 0)
        }
       end
@@ -228,7 +228,7 @@ module Calyx::Doors
       door.r_door_location = door.r_door_location.transform x_off, y_off, 0
       
       if door.r_door_id != nil
-        WORLD.region_manager.get_local_penguins(door.location).each {|p|
+        WORLD.region_manager.get_local_players(door.location, false).each {|p|
           p.io.send_replace_object(door.r_door_location, p.last_location, door.r_door_id, door.r_door_face, 0)
         }
       end
@@ -369,7 +369,7 @@ module Calyx::Doors
     def reset
       if @location != @orig_location
         # Remove the old replaced doors if they moved
-        WORLD.region_manager.get_local_penguins(@location).each {|p|
+        WORLD.region_manager.get_local_players(@location, false).each {|p|
           p.io.send_replace_object(@location, p.last_location, -1, 0, 0)
           p.io.send_replace_object(@r_door_location, p.last_location, -1, 0, 0)
         }
@@ -384,7 +384,7 @@ module Calyx::Doors
       @r_door_face = @r_door_orig_face
       
       # Add back to original locations
-      WORLD.region_manager.get_local_penguins(@location).each {|p|
+      WORLD.region_manager.get_local_players(@location, false).each {|p|
         p.io.send_replace_object(@location, p.last_location, @id, @face, 0)
         p.io.send_replace_object(@r_door_location, p.last_location, @r_door_id, @r_door_face, 0)
       }
