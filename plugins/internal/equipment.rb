@@ -6,7 +6,7 @@ module Calyx::Equipment
   SLOTS ||= []
   EXCEPTIONS ||= []
   
-  LOG = Logging.logger['data']
+  LOG ||= Logging.logger['data']
 
   def self.load()
     begin
