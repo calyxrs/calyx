@@ -23,6 +23,7 @@ module Calyx
     autoload :TextUtils,           'calyx/core/util'
     autoload :NameUtils,           'calyx/core/util'
     autoload :ThreadPool,          'calyx/core/util'
+    autoload :Cache,               'calyx/core/cache'
   end
   
   module Actions
@@ -72,6 +73,7 @@ module Calyx
     autoload :Connection,          'calyx/net/connection'
     autoload :Packet,              'calyx/net/packet'
     autoload :PacketBuilder,       'calyx/net/packetbuilder'
+    autoload :JaggrabConnection,   'calyx/net/jaggrab'
   end
   
   module GroundItems

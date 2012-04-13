@@ -38,6 +38,7 @@ module Calyx
   
     def start_config(config)
       @config = config
+      init_cache
       load_int_hooks
       load_defs
       load_hooks
@@ -59,6 +60,15 @@ module Calyx
     
     def load_int_hooks
       Dir["./plugins/internal/*.rb"].each {|file| load file }
+    end
+    
+    def init_cache
+      begin
+        $cache = Calyx::Misc::Cache.new("./data/cache/")
+      rescue Exception => e
+        $cache = nil
+        Logging.logger['cache'].warn e.to_s
+      end
     end
     
     def load_defs
@@ -97,6 +107,7 @@ module Calyx
           EventMachine.stop
         }
         
+        EventMachine.start_server("0.0.0.0", @config.port + 1, Calyx::Net::JaggrabConnection) if $cache
         EventMachine.start_server("0.0.0.0", @config.port, Calyx::Net::Connection)
         @log.info "Ready on port #{@config.port}"
       end

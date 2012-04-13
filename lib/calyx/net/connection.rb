@@ -6,7 +6,7 @@ module Calyx::Net
   CONNECTION_TIMES = {}
   CONNECTION_COUNTS = {}
   CONNECTION_INTERVAL = 1.0
-  CONNECTION_MAX = 2
+  CONNECTION_MAX = 5
   
   # The client sends this value when connecting to the game server.
   OPCODE_GAME = 14
@@ -74,7 +74,7 @@ module Calyx::Net
         send_data ([0] * 8 + [response]).pack("C" * 9)
         close_connection_after_writing
       else
-        LOG.info "Client connected"
+        LOG.debug "Connection opened"
       end
     end
     
@@ -139,12 +139,50 @@ module Calyx::Net
           opcode = @buffer.read_byte
 
           if opcode == OPCODE_PLAYERCOUNT
+            LOG.debug "Connection type: online"
             send_data [WORLD.players.size].pack("n")
             close_connection true
+          elsif opcode == OPCODE_UPDATE
+            LOG.debug "Connection type: update"
+            send_data (Array.new(8, 0)).pack("C" * 8)
+            @state = :update
           elsif check_failed(opcode == OPCODE_GAME, "Invalid opcode: #{opcode}")
             return
           else
+            LOG.debug "Connection type: client"
             @state = :login
+          end
+        end
+      when :update
+        if @buffer.length >= 4
+          cache_id = @buffer.read_byte.ubyte
+          file_id = @buffer.read_short.ushort
+          priority = @buffer.read_byte.ubyte
+          
+#          Logging.logger['cache'].debug "update server request (cache: #{cache_id}, file: #{file_id}, prio: #{priority})"
+          
+          data = $cache.get(cache_id + 1, file_id)
+          total_size = data.size
+          rounded_size = total_size
+          rounded_size += 1 while rounded_size % 500 != 0
+          blocks = rounded_size / 500
+          sent_bytes = 0
+          
+          blocks.times do |i|
+            pb = PacketBuilder.new(-1, :RAW)
+            block_size = total_size - sent_bytes
+            
+            pb.add_byte cache_id
+            pb.add_short file_id
+            pb.add_short total_size
+            pb.add_byte i
+            
+            block_size = 500 if block_size > 500
+            
+            pb.buffer << data.slice(sent_bytes, block_size)
+            
+            sent_bytes += block_size
+            send_data pb.to_packet
           end
         end
       when :login
@@ -298,7 +336,7 @@ module Calyx::Net
     
     # Called when the connection has been closed.
     def unbind
-      LOG.info "Client disconnected"
+      LOG.info "Connection closed"
       
       if CONNECTION_COUNTS.include?(@ip)
         count = CONNECTION_COUNTS[@ip]
