@@ -179,6 +179,7 @@ on_player_login(:equipment) {|player|
   player.equipment.add_listener Calyx::Equipment::AppearanceContainerListener.new(player)
   player.equipment.add_listener Calyx::Equipment::SidebarContainerListener.new(player)
   player.equipment.add_listener Calyx::Item::WeightListener.new(player)
+  player.equipment.add_listener Calyx::Item::BonusListener.new(player)
 }
 
 # Wield item

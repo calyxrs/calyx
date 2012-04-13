@@ -50,6 +50,7 @@ module Calyx
     autoload :ContainerListener,          'calyx/model/item'
     autoload :InterfaceContainerListener, 'calyx/model/item'
     autoload :WeightListener,             'calyx/model/item'
+    autoload :BonusListener,              'calyx/model/item'
   end
   
   module NPC

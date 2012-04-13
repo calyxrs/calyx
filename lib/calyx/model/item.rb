@@ -140,6 +140,57 @@ module Calyx::Item
     end
   end
   
+  class BonusListener < ContainerListener
+    attr :player
+    attr :bonus_names
+    
+    def initialize(player)
+      @player = player
+      @bonus_names = ['Stab', 'Slash', 'Crush', 'Magic', 'Range', 
+        'Stab', 'Slash', 'Crush', 'Magic', 'Range',
+        'Strength', 'Prayer']
+    end
+    
+    def slot_changed(container, slot)
+      update_bonuses
+    end
+    
+    def slots_changed(container, slots)
+      update_bonuses
+    end
+    
+    def items_changed(container)
+      update_bonuses
+    end
+    
+    def equipment_bonus(id)
+      bonus = case id
+      when Symbol
+        id
+      when Integer
+        Calyx::Item::ItemDefinition::PROPERTIES[id + 9]
+      end
+      
+      if bonus
+        player.equipment.items.inject(0) {|sum, item| sum + (item ? item.definition.send(bonus) : 0) }
+      else
+        nil
+      end
+    end
+        
+    private
+    
+    def update_bonuses
+      offset = 0
+      for i in 0...12
+        bonus = equipment_bonus(i)
+        offset = 1 if i == 10
+        sign = bonus >= 0 ? "+" : "-"
+        @player.io.send_string 1675 + i + offset, "#{bonus_names[i]}: #{sign}#{bonus}"
+      end
+    end
+  end
+
   class Container
     MAX_ITEMS = 2**31-1
     attr :capacity
