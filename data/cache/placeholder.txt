@@ -1,0 +1,11 @@
+Place cache files in this folder if you want Jaggrab and ondemand support.
+
+It should contain the following:
+
+  main_file_cache.dat
+  main_file_cache.idx0
+  main_file_cache.idx1
+  main_file_cache.idx2
+  main_file_cache.idx3
+  main_file_cache.idx4
+
