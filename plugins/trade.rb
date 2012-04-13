@@ -82,6 +82,11 @@ on_player_trade(139) {|player, packet|
   Trade.accepted_request player, packet
 }
 
+# Close trade on logout
+on_player_logout(:cancel_trade) {|player, packet|
+  Trade.close player
+}
+
 class Trade
   def self.request(player, packet)
     targetSlot = packet.read_byte
@@ -274,6 +279,7 @@ class Trade
       
       player.io.send_clear_screen
       target.io.send_clear_screen
+
 
     elsif accepted && !target_accepted
       player.io.send_string 3535, "Waiting for the other player..."
