@@ -75,7 +75,7 @@ module Calyx::Tasks
       WORLD.region_manager.get_local_players(@player).each {|p|
         # Make sure we have space and avoid duplicates
         break if @player.local_players.size >= 255
-        next if p.eql?(@player) || @player.local_players.include?(p)
+        next if p.index == nil || p.eql?(@player) || @player.local_players.include?(p)
         
         # Add and update the new player
         @player.local_players << p

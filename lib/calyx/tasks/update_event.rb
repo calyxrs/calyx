@@ -15,7 +15,7 @@ module Calyx::Tasks
       }
     
       WORLD.players.each {|p|
-        # TODO check if the connection is inactive
+        next unless p.index
         ticks << PlayerTickTask.new(p)
         resets << PlayerResetTask.new(p)
         updates << PlayerUpdateTask.new(p)

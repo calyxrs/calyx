@@ -17,6 +17,8 @@ module Calyx
     end
     
     def Net.handle_packet(player, packet)
+      return if !player
+    
       if PACKETS.include?(packet.opcode)
         handler = PACKETS[packet.opcode]
         
