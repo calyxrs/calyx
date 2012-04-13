@@ -13,12 +13,6 @@ module Calyx::Net
     # The client UID.
     attr :uid
     
-    # Whether the connection has been reconnected (client flag).
-    attr :reconnected
-    
-    # Whether this is a lowmem client or not.
-    attr :lowmem
-    
     # The ISAAC cipher used for incoming packets.
     attr :in_cipher
     
@@ -28,13 +22,11 @@ module Calyx::Net
     attr_accessor :player
 
     # Creates a new session with validated credentials.
-    def initialize(connection, username, password, uid, lowmem, reconnected, in_cipher, out_cipher)
+    def initialize(connection, username, password, uid, in_cipher, out_cipher)
       @connection = connection
       @username = username
       @password = password
       @uid = uid
-      @lowmem = lowmem
-      @reconnected = reconnected
       @in_cipher = in_cipher
       @out_cipher = out_cipher
     end

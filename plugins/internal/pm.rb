@@ -115,7 +115,7 @@ on_packet(188) {|player, packet|
   friends = player.varp.friends
   
   if friends.size >= 200
-    player.io.send_message "Your friends list if full."
+    player.io.send_message "Your friends list is full."
     next
   end
   
@@ -140,7 +140,7 @@ on_packet(133) {|player, packet|
   ignores = player.varp.ignores
 
   if ignores.size >= 200
-    player.io.send_message "Your ignore list if full."
+    player.io.send_message "Your ignore list is full."
     next
   end
   

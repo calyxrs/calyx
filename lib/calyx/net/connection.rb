@@ -56,12 +56,6 @@ module Calyx::Net
     # The connection credentials, once they have been validated.
     attr :session
     
-    # Whether the connection has been reconnected (client flag).
-    attr :reconnected
-    
-    # Whether this is a lowmem client or not.
-    attr :lowmem
-    
     # The connection address.
     attr :ip
 
@@ -184,9 +178,6 @@ module Calyx::Net
           login_opcode = @buffer.read_byte.ubyte
           return if check_failed([16, 18].include?(login_opcode), "Invalid login opcode: #{login_opcode}")
           
-          # Reconnect status
-          @reconnected = login_opcode == 18
- 
           # Parse login packet size
           login_size = @buffer.read_byte.ubyte
           enc_size = login_size - (36 + 1 + 1 + 2)
@@ -208,7 +199,8 @@ module Calyx::Net
             send_data [6].pack("C")
           }
 
-          @lowmem = @buffer.read_byte.ubyte == 1
+          # Low memory
+          @buffer.read_byte
 
           9.times { @buffer.read_int }
 
@@ -244,7 +236,7 @@ module Calyx::Net
           in_cipher = ISAAC.new(session_key)
           out_cipher = ISAAC.new(session_key.collect {|i| i + 50 })
           
-          @session = Session.new(self, username, password, uid, @lowmem, @reconnected, in_cipher, out_cipher)
+          @session = Session.new(self, username, password, uid, in_cipher, out_cipher)
           @state = :authenticated
           
           WORLD.add_to_login_queue(@session)

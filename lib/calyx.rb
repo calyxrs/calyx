@@ -64,7 +64,7 @@ module Calyx
     autoload :Skills,              'calyx/model/player/skills'
   end
   
-  module Net                                        # TODO better packet loading...
+  module Net
     autoload :ActionSender,        'calyx/net/actionsender'
     autoload :ISAAC,               'calyx/net/isaac'
     autoload :Session,             'calyx/net/session'

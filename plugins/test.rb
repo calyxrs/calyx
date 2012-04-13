@@ -18,10 +18,6 @@ on_command("pos") {|player, params|
   player.io.send_message "You are at #{player.location.inspect}."
 }
 
-on_command("fail") {|player, params|
-  raise "gtfo"
-}
-
 on_command("update") {|player, params|
   time = params.first.to_i
   WORLD.submit_event Calyx::Tasks::SystemUpdateEvent.new(time)
@@ -37,10 +33,6 @@ on_command("goup") {|player, params|
 
 on_command("godown") {|player, params|
   player.teleport_location = player.location.transform(0, 0, -1)  
-}
-
-on_command("nuke"){|player, params|
-  Kernel.exit!
 }
 
 on_command("item") {|player, params|
